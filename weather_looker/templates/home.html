@@ -2,6 +2,25 @@
 
 {% block content %}
 
-<h1>HELLO WORLD!!!</h1>
+<!-- {% if greeting_string %}
+  {{ greeting_string }}
+{% endif %} -->
+
+<div class="info-container">
+  <h2>{{ city_name }}</h2>
+  <h4>{{ zipcode }}</h4>
+  <br />
+
+  <h5>Weather Conditions: </h5>
+  <p>{{ city_conditions }}</p>
+  <h5>Temp in Fahrenheit: </h5>
+  <p>{{ city_temp_F }}</p>
+  <h5>Temp in Celcius: </h5>
+  <p>{{ city_temp_C }}</p>
+  <h5>Humidity: </h5>
+  <p>{{ city_humidity }}</p>
+  <br>
+</div>
+
 
 {% endblock %}

@@ -1,0 +1,20 @@
+/* Global Variables */
+h1{
+  text-align: center;
+  padding: 1%;
+}
+
+/* Selector variables */
+.header-container {
+  background-color: #D6E0F0
+}
+.header-subtitle {
+  text-align: center;
+}
+.info-container {
+  text-align: center;
+}
+.python-container {
+  align-content: center;
+  background-color: #E8E8E8
+}
